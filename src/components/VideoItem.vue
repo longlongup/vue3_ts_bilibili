@@ -19,7 +19,7 @@
 
 <script setup lang="ts">
 import { defineProps, PropType } from 'vue'
-import {IVideoListType } from '@/types/HomeType'
+import type {IVideoListType } from '@/types/HomeType'
 defineProps({
   videoItem: {
     type: Object as PropType<IVideoListType>,

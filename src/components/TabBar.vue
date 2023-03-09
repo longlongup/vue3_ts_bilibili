@@ -14,7 +14,7 @@
 import videoItem from '@/components/VideoItem.vue'
 import { ref } from 'vue';
 import axios from 'axios'
-import { ITabBarType, IVideoListType } from '@/types/HomeType'
+import type { ITabBarType, IVideoListType } from '@/types/HomeType'
 import { useRouter } from 'vue-router';
 const router = useRouter()
 const active = ref(0);
